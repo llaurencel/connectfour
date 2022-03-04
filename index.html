@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<title>Connect 4</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+</head>
+<body>
+	<div id="headWrapper">
+		<div class="centerH">
+			<h1 id="header" class="header">
+				Connect 4
+			</h1>
+
+			<div class="container-3">
+				
+				<div id="p1-container" class="container">
+					<div class="smallCircle player-0 centerH"></div>
+					<input id="p0-name" class="pName" type="text" name="p1" value="Player 1">
+					<div class="score" id="p0-score">
+						0
+					</div>
+				</div>
+
+				<div class="container">
+					<div id="new-game" class="btn green centerH">
+						Reset
+					</div>
+					<div id="notify" class="notifications">
+						Some notifications!
+					</div>
+				</div>
+				
+
+				<div id="p2-container" class="container">
+					<div class="smallCircle player-1 centerH"></div>
+
+					<input id="p1-name" class="pName" type="text" name="p2" value="Player 2">
+
+					<div class="score" id="p1-score">
+						0
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div id="contentWrapper">
+		<div class="circle activePiece"></div>
+		<div id="board-container">
+
+			<div class="column" id="column-0">
+				
+			</div>
+
+			<div class="column" id="column-1">
+
+			</div>
+
+			<div class="column" id="column-2">
+
+			</div>
+
+			<div class="column" id="column-3">
+
+			</div>
+
+			<div class="column" id="column-4">
+
+			</div>
+
+			<div class="column" id="column-5">
+
+			</div>
+
+			<div class="column" id="column-6">
+
+			</div>
+		</div>
+	</div>
+
+</body>
+<script src="js/main.js"></script>
+</html>
